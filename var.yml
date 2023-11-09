@@ -1,3 +1,9 @@
 vars:
     # renovate: datasource=gitlab-tags depName=gitlab-org/gitlab-runner
     gitlab_runner_version: 'v15.10.1'
+
+    # renovate: datasource=github-releases depName=tilt-dev/tilt
+    TILT_VERSION: v0.19.7
+
+    # renovate: datasource=github-releases depName=rancher/cli
+    RANCHER_VERSION: 'v2.4.10'

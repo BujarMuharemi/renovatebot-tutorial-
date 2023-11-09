@@ -6,6 +6,14 @@
 		"renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.*_version: '(?<currentValue>.*)'\\s"
 	  ],
 	  "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
-	}
+	},
+	{
+		"description": "Update _VERSION variables in shell scripts",
+		"fileMatch": ["\\.sh$"],
+		"matchStrings": [
+		  "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s[A-Z_]+?_VERSION=(?<currentValue>.+?)\\s"
+		],
+		"versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
+	  }
   ]
 }
