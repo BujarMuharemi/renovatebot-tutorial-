@@ -12,3 +12,6 @@
         service:
           name: httpd
           state: started
+     vars:
+    # renovate: datasource=gitlab-tags depName=gitlab-org/gitlab-runner
+    gitlab_runner_version: 'v15.10.1'
