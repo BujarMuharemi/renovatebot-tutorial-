@@ -9,7 +9,7 @@
 	},
 	{
 		"description": "Update _VERSION variables in shell scripts",
-		"fileMatch": ["\\.sh$"],
+		"fileMatch": ["\\.yml$"],
 		"matchStrings": [
 		  "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s[A-Z_]+?_VERSION=(?<currentValue>.+?)\\s"
 		],
