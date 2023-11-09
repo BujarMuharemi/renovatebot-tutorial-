@@ -7,7 +7,6 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
-  ],
-  "prHourlyLimit": 3
+  ]
   
 }
