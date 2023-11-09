@@ -7,6 +7,9 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
+  ],
+  "fileMatch": [
+    "(^|/)tasks/[^/]+\\.ya?ml$"
   ]
   
 }
