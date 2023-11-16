@@ -5,5 +5,5 @@ vars:
 
     vault-agent:
         # renovate: datasource=docker depName=hashicorp/vault-enterprise
-        image: '1.12.11-ent'
+        vault_agent_version: '1.12.11-ent'
         
