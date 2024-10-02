@@ -1,7 +1,7 @@
 vars:
 
     # renovate: datasource=docker depName=jenkins/jenkins
-    jenkins_server_version: '2.414.1-lts-alpine'
+    jenkins_server_version: '2.462.3'
 
     vault-agent:
         # renovate: datasource=docker depName=hashicorp/vault-enterprise
